@@ -1,0 +1,111 @@
+
+.item-page-stat {
+   width: 725px;
+   margin-top: 30px;
+}
+
+.item-page-stat-wrapper {
+   margin-bottom: 20px;
+   display: flex;
+}
+.item-page-stat-info {
+   color: rgb(170, 170, 170);
+   margin-right: 20px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.item-page-stat-report {
+   color: rgb(170, 170, 170);
+   font-size: 20px;
+   cursor: pointer;
+}
+.item-page-stat-info-page {
+   margin-top: 20px;
+}
+.item-page-stat-sponsors {
+   color: rgb(170, 170, 170);
+   margin-right: 48px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.item-page-stat-costs {
+   color: rgb(170, 170, 170);
+   font-size: 20px;
+   cursor: pointer;
+}
+.costs-items {
+   width: 350px;
+}
+.costs-item {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(170, 170, 170);
+   padding-bottom: 15px;
+   padding-top: 15px;
+   cursor: pointer;
+}
+.costs-item:last-child {
+   border-bottom: none;
+}
+.costs-item:first-child {
+   padding-top: 0 ;
+}
+.cost-info {
+   border-bottom: 1px solid rgb(170, 170, 170); 
+   border-right: 1px solid rgb(170, 170, 170); 
+   border-left: 1px solid rgb(170, 170, 170); 
+   width: 318px;
+   padding: 15px;
+}
+.cost-info-item {
+   border-bottom: 1px solid rgb(170, 170, 170);
+   padding-bottom: 10px;
+   padding-top: 10px;
+   color: rgb(88, 88, 88);
+   display: flex;
+   justify-content: space-between;
+}
+.cost-info-item:last-child {
+   border-bottom: none;
+   padding-bottom: 0;
+}
+.cost-info-item:first-child {
+   padding-top: 0;
+}
+.cost-info-item-value {
+   color: rgb(56, 211, 56);
+}
+
+
+
+
+
+
+i {
+   border: solid black;
+   border-width: 0 3px 3px 0;
+   display: inline-block;
+   padding: 3px;
+   margin-left: 5px;
+ }
+ .up {
+   transform: rotate(-135deg);
+ }
+ .down {
+   transform: rotate(45deg);
+ }
+.activeTop {
+   color: rgb(88, 88, 88);
+   border-bottom: 1px solid rgb(56, 211, 56);
+   font-weight: bold;
+   padding-bottom: 2px;
+}
+.activeBottom {
+   color: rgb(56, 211, 56);
+   border-bottom: 1px solid rgb(88, 88, 88) ;
+   font-weight: bold;
+   padding-bottom: 2px;
+}
+.border {
+   border-bottom: 1px solid rgb(170, 170, 170);
+}

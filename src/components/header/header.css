@@ -1,0 +1,31 @@
+.header {
+   border-bottom: 1px solid #ccc;
+}
+.header-title{
+   text-align: center;
+   font-size: 26px;
+}
+.header-subtitle {
+   text-align: center;
+   color: #ccc;
+   font-weight: 400;
+   font-size: 22px;
+}
+
+.header-main-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+}
+.header-main-item {
+   margin-right: 80px;
+   color: rgb(85,85,85);
+}
+.header-main-item:last-child{
+   margin-right: 0;
+}
+.active-filter {
+   font-weight: bold;
+   border-bottom: 1px solid rgb(56, 211, 56);
+}

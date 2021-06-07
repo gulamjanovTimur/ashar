@@ -1,0 +1,12 @@
+.container {
+   width: 1200px;
+   margin: 0 auto;
+}
+.profilePage-favorites-header {
+   background-color: #f1f1f1;
+   padding: 20px 0 40px 0;
+   border-bottom: 1px solid #ccc;
+}
+.profilePage-favorites {
+   margin-top: 40px;
+}

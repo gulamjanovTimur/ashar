@@ -1,0 +1,71 @@
+.item-main {
+   display: flex;
+}
+.item-main-info {
+   width: 350px;
+   margin-left: 25px;
+}
+.item-main-info-value {
+   display: flex;
+   flex-direction: column;
+}
+.item-main-info-top {
+   border-bottom: 1px rgb(56, 211, 56) solid;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 10px;
+}
+.item-main-info-totalValue {
+   font-weight: bold;
+   font-size: 22px;
+
+}
+.item-main-info-currentValue {
+   color: blue;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+.item-main-info-percent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   border: 3px solid rgb(170, 170, 170);
+   font-weight: bold;
+}
+.item-main-info-bottom {
+   margin-top: 15px;
+}
+.item-main-info-sponsors {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+.item-main-info-sponsors-value {
+   font-size: 24px;
+   font-weight: bold;
+   color: rgb(170, 170, 170);
+}
+.item-main-info-sponsors-text {
+   color: rgb(170, 170, 170);
+}
+.item-main-info-category {
+   color: rgb(170, 170, 170);
+   margin-bottom: 20px;
+}
+.item-main-info-button {
+   display: block;
+   padding: 10px;
+   text-align: center;
+   width: 92%;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   background-color: rgb(56, 211, 56);
+   color: white;
+   font-size: 22px;
+}

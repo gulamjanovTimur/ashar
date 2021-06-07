@@ -1,0 +1,113 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 200px;
+   border-bottom: 1px solid #ccc;
+}
+.nav-logo {
+   font-size: 40px;
+   font-weight: bold;
+   color: rgb(56, 211, 56);
+   margin-right: 172px;
+}
+.nav-menu {
+   display: flex;
+}
+.nav-menu-search {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+   padding-right: 20px;
+   color: black;
+}
+.nav-menu-joinAcc {
+   color: black;
+}
+.region-sort  {
+   height: 30px;
+   width: 250px;
+   border: none;
+   background-color: rgb(241, 241, 241);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   font-size: 15px;
+   color: rgb(175,175,175);
+   cursor: pointer;
+}
+.select-region-sort option{
+   width: 100%;
+}
+.search-icon {
+   margin-left: 10px;
+}
+.region-options {
+   display: flex;
+   width: calc(100% - 32px);
+   flex-direction: column;
+   background-color: white;
+   position: absolute;
+   z-index: 100;
+   width: 100%;
+   top: 30px;
+}
+.region-option:hover {
+   background-color: rgb(56, 211, 56);
+   color: white;
+   cursor: pointer;
+}
+.region-option {
+   color: rgb(175,175,175);
+   padding: 15px;
+}
+.nav-profile {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 55px;
+   height: 55px;
+   position: relative;
+   cursor: pointer;
+   background-image: url(/src/img/user.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.nav-profile-popup {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   background-color: white;
+   position: absolute;
+   top: 80px;
+   right: 0;
+   z-index: 999;
+   border: 1px solid black;
+   padding: 20px;
+   cursor: initial;
+}
+.nav-profile-popupTitle {
+   margin-bottom: 20px;
+   color: black;
+   font-weight: bold;
+}
+.nav-profile-item {
+   margin-bottom: 15px;
+   color: black;
+   font-size: 14px;
+   cursor: pointer;
+}
+.nav-profile-item:hover {
+   text-decoration: underline;
+}
+.nav-profile-item.donateProject {
+   margin-bottom: 30px;
+}
+.nav-profile-item.logOut {
+   padding-top: 20px;
+   border-top: 1px solid rgb(175,175,175);
+   margin-bottom: 0;
+}
